@@ -28,4 +28,4 @@ var yourModule = angular.module("yourModule", ['ngError']);
 You can add the `ng-error` directive in `<img>` tags
 ```html
 <img src="beautifulImage.jpg" ng-error="someFunction()" alt="" />
-````
+```
