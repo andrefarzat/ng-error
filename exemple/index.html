@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example for ng-error</title>
+</head>
+<body ng-app="ngError" ng-init="isValidImage = true">
+
+    isValidImage: {{ isValidImage }}<br />
+    <img ng-src="wrong-src.jpg" alt="this will be wrong" ng-error="isValidImage = false" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="../ng-error.js"></script>
+</body>
+</html>
