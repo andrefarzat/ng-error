@@ -1,0 +1,26 @@
+{
+  "name": "ng-error",
+  "version": "1.0.0",
+  "description": "Angular ngError directive",
+  "main": "ng-error.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrefarzat/ng-error.git"
+  },
+  "keywords": [
+    "angular",
+    "ngError",
+    "ng-error",
+    "error",
+    "directive"
+  ],
+  "author": "andre farzat",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/andrefarzat/ng-error/issues"
+  },
+  "homepage": "https://github.com/andrefarzat/ng-error"
+}
