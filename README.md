@@ -40,3 +40,13 @@ var yourModule = angular.module('yourModule', ['ngError']);
 <!-- You can add the `ng-error` directive in `<img>` tags -->
 <img src="beautifulImage.jpg" ng-error="someFunction()" alt="" />
 ```
+
+If you intend to use it with video/audio:
+
+```html
+<video ng-src="{{someUrl}}">
+  <source src="dynamicsearch.mp4" type="video/mp4"></source>
+  <!-- on the only/last source -->
+  <source src="otherdynamicsearch.avi" type="video/avi" ng-error="handleError()"></source>
+</video>
+```
